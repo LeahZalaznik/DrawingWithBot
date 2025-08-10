@@ -1,0 +1,52 @@
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 16px;
+  box-sizing: border-box;
+}
+
+.main-paper {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  padding: 16px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.chat-box {
+  width: 25%;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.canvas-box {
+  width: 75%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0; 
+}
+
+@media (max-width: 768px) {
+  .main-paper {
+    flex-direction: column;
+    padding: 8px;
+  }
+
+  .chat-box {
+    width: 100%;
+    min-width: unset;
+    flex: unset;
+  }
+
+  .canvas-box {
+    width: 100%;
+  }
+}

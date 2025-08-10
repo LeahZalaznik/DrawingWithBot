@@ -1,0 +1,15 @@
+.drawing-controls {
+  margin: 8px 0;
+}
+
+.drawing-label {
+  font-weight: 500;
+}
+
+.drawing-autocomplete {
+  min-width: 200px;
+}
+
+.button-group button {
+  min-width: 100px;
+}

@@ -1,0 +1,53 @@
+######################
+#   Global settings  #
+######################
+
+# מערכת ההפעלה
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+########################
+#   .NET / C# backend  #
+########################
+
+# תיקיות Build
+ai-drawing-server/bin/
+ai-drawing-server/obj/
+
+# קבצי משתמש
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+*.dbmdl
+*.log
+*.pdb
+
+########################
+#   React / Frontend   #
+########################
+
+# node_modules
+ai-drawing-client/node_modules/
+
+# Build output
+ai-drawing-client/build/
+ai-drawing-client/dist/
+
+# קבצי סביבה
+ai-drawing-client/.env.local
+ai-drawing-client/.env.development.local
+ai-drawing-client/.env.test.local
+ai-drawing-client/.env.production.local
+
+# דוחות
+ai-drawing-client/coverage/
+ai-drawing-client/npm-debug.log*
+ai-drawing-client/yarn-debug.log*
+ai-drawing-client/yarn-error.log*

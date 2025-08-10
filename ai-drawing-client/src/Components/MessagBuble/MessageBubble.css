@@ -1,0 +1,17 @@
+.message-paper {
+  padding: 12px;
+  max-width: 70%;
+}
+
+.message-paper.user {
+  background-color: #DCF8C6;
+}
+
+.message-paper.bot {
+  background-color: #FFFFFF;
+}
+
+.message-image {
+  max-width: 100%;
+  margin-top: 8px;
+}

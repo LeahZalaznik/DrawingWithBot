@@ -1,0 +1,5 @@
+.message-input {
+  display: flex;
+  padding: 16px;
+  border-top: 1px solid #ccc;
+}
