@@ -36,9 +36,6 @@ export const useDrawings = (userId: string) => {
   const handleSave = async () => {
     if (!currentDrawing) return;
     const saved = await saveDrawing(currentDrawing);
-    if (saved) {
-      // כאן לא חייבים לעדכן כי currentDrawing כבר ב־Redux
-    }
   };
 
   const handleSelectDrawing = (index: number) => {
